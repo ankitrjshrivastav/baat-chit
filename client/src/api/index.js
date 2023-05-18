@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5002/api",
+  baseURL: "https://baat-chit-api.onrender.com",
 });
 
 export const getRoomExists = (roomId) => API.get(`/room-exists/${roomId}`);

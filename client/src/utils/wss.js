@@ -3,7 +3,7 @@ import store from "../redux/store";
 import * as webRTCHandler from "./webRTCHandler";
 import { setParticipants, setRoomId } from "../redux/actions";
 
-const SERVER = `${window.location.hostname}:5002`;
+const SERVER = `https://baat-chit-api.onrender.com`;
 
 let socket = null;
 
